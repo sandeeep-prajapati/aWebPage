@@ -1,0 +1,17 @@
+.it-my-card{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 50px black;
+    background-color: aqua;
+}
+.it-my-card::before{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+}
+.it-my-card h1{
+    position: relative;
+    font-size: 1.5em;
+    color: aliceblue;
+    z-index: 2;
+}
